@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="152x152" href="/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Favicon/site.webmanifest">
+    <link rel="mask-icon" href="/Favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/Favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/Favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <title>Swaroop</title>
+</head>
+
+<body  data-bs-spy="scroll" data-bs-target="navbar" data-bs-offset="10" tabindex="0">
+    <!-- NavBar -->
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="#">
+                <img class="img-fluid" src="logo.png" alt="logo" style="height:35px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-lg-end align-content-center"
+                id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">PROJECTS</a>
+                    </li>
+                    <button class="btn btn-outline-primary rounded-pill ms-lg-2 fw-bold" data-bs-toggle="modal" data-bs-target="#contactModal">SAY HELLO</button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <!-- Home -->
+        <section id="home" class="container d-flex flex-column align-items-center justify-content-center text-center">
+            <h2 class="fs-1 fw-bold">Student, Coder and A FullStack Developer</h2>
+            <h5 class="text-muted fw-normal fs-5">I LOVE TO CODE AND BUILD WEBSITES. IT’S FUN TO ADD LIFE TO WEBSITES.
+            </h5>
+            <svg class="my-4" width="217" height="237" viewBox="0 0 217 237" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                    <mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="21" width="217"
+                        height="216">
+                        <path
+                            d="M108.8 237C168.447 237 216.8 188.647 216.8 129C216.8 69.3532 168.447 21 108.8 21C49.1532 21 0.799988 69.3532 0.799988 129C0.799988 188.647 49.1532 237 108.8 237Z"
+                            fill="white" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M108.8 237C168.447 237 216.8 188.647 216.8 129C216.8 69.3532 168.447 21 108.8 21C49.1532 21 0.799988 69.3532 0.799988 129C0.799988 188.647 49.1532 237 108.8 237Z"
+                            fill="#7510F7" />
+                        <path d="M217.245 21H0.799988V237H217.245V21Z" fill="#374DD7" />
+                    </g>
+                    <mask id="mask1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-10" y="-15" width="238"
+                        height="252">
+                        <path
+                            d="M-10 129V-15H227.6V129H216.8C216.8 188.647 168.447 237 108.8 237C49.1533 237 0.8 188.647 0.8 129H-10Z"
+                            fill="white" />
+                    </mask>
+                    <g mask="url(#mask1)">
+                        <mask id="mask2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="18" y="17" width="181"
+                            height="220">
+                            <path
+                                d="M108.8 17.4C136.635 17.4 159.2 39.9648 159.2 67.8L159.201 73.3495C164.308 74.2068 168.2 78.6489 168.2 84V96.6C168.2 102.047 164.167 106.552 158.925 107.293C157.065 125.118 145.914 140.18 130.401 147.549L130.4 164.1H134C169.788 164.1 198.8 193.112 198.8 228.9V237H18.8V228.9C18.8 193.112 47.8119 164.1 83.6 164.1H87.2L87.2001 147.55C71.6865 140.18 60.5351 125.118 58.6746 107.293C53.4327 106.552 49.4 102.047 49.4 96.6V84C49.4 78.6486 53.2921 74.2062 58.4001 73.3493L58.4 67.8C58.4 39.9648 80.9648 17.4 108.8 17.4Z"
+                                fill="white" />
+                        </mask>
+                        <g mask="url(#mask2)">
+                            <path
+                                d="M108.8 17.4C136.635 17.4 159.2 39.9648 159.2 67.8L159.201 73.3495C164.308 74.2068 168.2 78.6489 168.2 84V96.6C168.2 102.047 164.167 106.552 158.925 107.293C157.065 125.118 145.914 140.18 130.401 147.549L130.4 164.1H134C169.788 164.1 198.8 193.112 198.8 228.9V237H18.8V228.9C18.8 193.112 47.8119 164.1 83.6 164.1H87.2L87.2001 147.55C71.6865 140.18 60.5351 125.118 58.6746 107.293C53.4327 106.552 49.4 102.047 49.4 96.6V84C49.4 78.6486 53.2921 74.2062 58.4001 73.3493L58.4 67.8C58.4 39.9648 80.9648 17.4 108.8 17.4Z"
+                                fill="#D0C6AC" />
+                            <path d="M228.384 17.4H-10V237.755H228.384V17.4Z" fill="#FFDBB4" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M58.4 102C58.4 129.835 80.9648 152.4 108.8 152.4C136.635 152.4 159.2 129.835 159.2 102V109.2C159.2 137.035 136.635 159.6 108.8 159.6C80.9648 159.6 58.4 137.035 58.4 109.2V102Z"
+                                fill="black" fill-opacity="0.1" />
+                        </g>
+                        <mask id="mask3" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="18" y="149" width="181"
+                            height="88">
+                            <path
+                                d="M130.401 149.764C146.691 151.587 159.2 156.597 159.2 169.569L159.194 169.18C182.467 179.01 198.8 202.047 198.8 228.9V237H18.8V228.9C18.8 202.047 35.1327 179.01 58.4058 169.18C58.6526 156.496 71.0734 151.568 87.1996 149.764L87.2 166.8C87.2 178.729 96.8706 188.4 108.8 188.4C120.729 188.4 130.4 178.729 130.4 166.8L130.401 149.764Z"
+                                fill="white" />
+                        </mask>
+                        <g mask="url(#mask3)">
+                            <path
+                                d="M130.401 149.764C146.691 151.587 159.2 156.597 159.2 169.569L159.194 169.18C182.467 179.01 198.8 202.047 198.8 228.9V237H18.8V228.9C18.8 202.047 35.1327 179.01 58.4058 169.18C58.6526 156.496 71.0734 151.568 87.1996 149.764L87.2 166.8C87.2 178.729 96.8706 188.4 108.8 188.4C120.729 188.4 130.4 178.729 130.4 166.8L130.401 149.764Z"
+                                fill="#B7C1DB" />
+                            <path d="M228.491 138H-10V237H228.491V138Z" fill="#293347" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M81.7998 193.565L81.8 237H75.5L75.499 190.335C77.4826 191.514 79.5916 192.594 81.7998 193.565ZM142.101 190.334L142.1 226.65C142.1 228.39 140.69 229.8 138.95 229.8C137.21 229.8 135.8 228.39 135.8 226.65L135.801 193.565C138.009 192.594 140.118 191.513 142.101 190.334Z"
+                                fill="#F4F4F4" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M145.733 149.451C159.28 152.013 168.65 157.118 168.65 167.077C168.65 184.818 138.916 199.2 108.8 199.2C78.6839 199.2 48.95 184.818 48.95 167.077C48.95 157.118 58.3196 152.013 71.8667 149.451C63.6892 152.466 58.4 157.534 58.4 165.969C58.4 184.322 83.4391 199.2 108.8 199.2C134.161 199.2 159.2 184.322 159.2 165.969C159.2 157.71 154.13 152.679 146.241 149.642L145.733 149.451Z"
+                                fill="black" fill-opacity="0.16" />
+                        </g>
+                        <mask id="mask4" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="91" y="117" width="35"
+                            height="18">
+                            <path
+                                d="M91.8061 119.215C92.7582 127.758 100.003 134.4 108.8 134.4C117.624 134.4 124.887 127.717 125.803 119.136C125.876 118.445 125.105 117.3 124.139 117.3C110.734 117.3 100.464 117.3 93.5782 117.3C92.606 117.3 91.7109 118.361 91.8061 119.215Z"
+                                fill="white" />
+                        </mask>
+                        <g mask="url(#mask4)">
+                            <path
+                                d="M91.8061 119.215C92.7582 127.758 100.003 134.4 108.8 134.4C117.624 134.4 124.887 127.717 125.803 119.136C125.876 118.445 125.105 117.3 124.139 117.3C110.734 117.3 100.464 117.3 93.5782 117.3C92.606 117.3 91.7109 118.361 91.8061 119.215Z"
+                                fill="black" fill-opacity="0.7" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M99.8 107.4H118.7C121.185 107.4 123.2 109.415 123.2 111.9V117.3C123.2 119.785 121.185 121.8 118.7 121.8H99.8C97.3148 121.8 95.3 119.785 95.3 117.3V111.9C95.3 109.415 97.3148 107.4 99.8 107.4Z"
+                                fill="white" />
+                            <path
+                                d="M104.3 147C109.768 147 114.2 142.568 114.2 137.1C114.2 131.632 109.768 127.2 104.3 127.2C98.8324 127.2 94.4 131.632 94.4 137.1C94.4 142.568 98.8324 147 104.3 147Z"
+                                fill="#FF4F6D" />
+                            <path
+                                d="M113.3 147C118.768 147 123.2 142.568 123.2 137.1C123.2 131.632 118.768 127.2 113.3 127.2C107.832 127.2 103.4 131.632 103.4 137.1C103.4 142.568 107.832 147 113.3 147Z"
+                                fill="#FF4F6D" />
+                        </g>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M98 102C98 105.976 102.835 109.2 108.8 109.2C114.765 109.2 119.6 105.976 119.6 102"
+                            fill="black" fill-opacity="0.16" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M72.9442 86.2026C74.6061 82.7837 78.348 80.4 82.6979 80.4C87.0324 80.4 90.7633 82.7669 92.4339 86.1664C92.9301 87.1763 92.2239 88.0027 91.5116 87.3903C89.3056 85.4938 86.1729 84.3094 82.6979 84.3094C79.3315 84.3094 76.2864 85.4209 74.0938 87.2145C73.2922 87.8703 72.4581 87.2025 72.9442 86.2026Z"
+                            fill="black" fill-opacity="0.6" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M125.144 86.2026C126.806 82.7837 130.548 80.4 134.898 80.4C139.232 80.4 142.963 82.7669 144.634 86.1664C145.13 87.1763 144.424 88.0027 143.712 87.3903C141.506 85.4938 138.373 84.3094 134.898 84.3094C131.532 84.3094 128.486 85.4209 126.294 87.2145C125.492 87.8703 124.658 87.2025 125.144 86.2026Z"
+                            fill="black" fill-opacity="0.6" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M82.2927 64.3336C77.0664 64.575 68.6171 68.3726 68.8347 73.643C68.8419 73.8155 69.0953 73.8912 69.2191 73.7585C71.6985 71.0951 89.3029 68.4038 95.5035 69.83C96.071 69.9607 96.5022 69.4009 96.1427 68.9965C93.0628 65.5331 86.9749 64.1127 82.2927 64.3336Z"
+                            fill="black" fill-opacity="0.6" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M136.207 64.3336C141.434 64.575 149.883 68.3726 149.665 73.643C149.658 73.8155 149.405 73.8912 149.281 73.7585C146.802 71.0951 129.197 68.4038 122.997 69.83C122.429 69.9607 121.998 69.4009 122.357 68.9965C125.437 65.5331 131.525 64.1127 136.207 64.3336Z"
+                            fill="black" fill-opacity="0.6" />
+                        <mask id="mask5" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="-10" y="-15" width="238"
+                            height="252">
+                            <path d="M227.6 -15H-10V237H227.6V-15Z" fill="white" />
+                        </mask>
+                        <g mask="url(#mask5)">
+                            <mask id="mask6" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="55" y="0" width="106"
+                                height="75">
+                                <path
+                                    d="M151.135 20.9284C148.651 18.3904 145.767 16.2361 142.962 14.0759C142.343 13.5997 141.715 13.135 141.109 12.6407C140.972 12.5283 139.563 11.5192 139.394 11.1478C138.988 10.2542 139.224 10.95 139.28 9.88373C139.35 8.53546 142.1 4.72739 140.048 3.85411C139.146 3.47001 137.536 4.49216 136.67 4.82976C134.977 5.49045 133.263 6.05392 131.512 6.53978C132.351 4.86871 133.95 1.52355 130.944 2.41887C128.603 3.11641 126.421 4.90978 124.068 5.75346C124.847 4.47736 127.96 0.523144 125.147 0.302106C124.271 0.233258 121.724 1.87534 120.782 2.22562C117.958 3.27494 115.075 3.95315 112.111 4.48733C102.033 6.30364 90.2475 5.78577 80.9231 10.3741C73.7345 13.9113 66.6362 19.3998 62.4835 26.3888C58.481 33.1253 56.984 40.4978 56.1462 48.2172C55.5315 53.8823 55.4816 59.7383 55.7691 65.424C55.863 67.2868 56.0725 75.8738 58.7787 73.2732C60.1271 71.9775 60.1171 66.7454 60.4567 64.9744C61.1325 61.4507 61.783 57.9114 62.9098 54.5004C64.8954 48.4895 67.2377 45.6867 72.1842 41.5468C75.3586 38.8904 77.5877 35.3 80.6254 32.6201C81.9899 31.4165 80.9487 31.5418 83.1426 31.6997C84.6164 31.8057 86.0969 31.8462 87.5737 31.8848C90.9901 31.9736 94.4119 31.951 97.8292 31.963C104.711 31.9878 111.561 32.085 118.437 31.7248C121.492 31.5647 124.556 31.4781 127.603 31.1954C129.306 31.0375 132.326 29.9465 133.728 30.7802C135.01 31.543 136.342 34.0336 137.263 35.0536C139.438 37.4642 142.032 39.3053 144.576 41.2819C149.881 45.4035 152.559 46.98 154.17 53.4209C155.775 59.838 155.325 65.7913 157.312 72.1063C157.662 73.2166 158.586 75.1305 159.726 73.415C159.937 73.0965 159.883 71.3451 159.883 70.3374C159.883 66.2696 160.913 63.2175 160.9 59.1232C160.849 46.6744 160.447 30.4418 151.135 20.9284Z"
+                                    fill="white" />
+                            </mask>
+                            <g mask="url(#mask6)">
+                                <path
+                                    d="M151.135 20.9284C148.651 18.3904 145.767 16.2361 142.962 14.0759C142.343 13.5997 141.715 13.135 141.109 12.6407C140.972 12.5283 139.563 11.5192 139.394 11.1478C138.988 10.2542 139.224 10.95 139.28 9.88373C139.35 8.53546 142.1 4.72739 140.048 3.85411C139.146 3.47001 137.536 4.49216 136.67 4.82976C134.977 5.49045 133.263 6.05392 131.512 6.53978C132.351 4.86871 133.95 1.52355 130.944 2.41887C128.603 3.11641 126.421 4.90978 124.068 5.75346C124.847 4.47736 127.96 0.523144 125.147 0.302106C124.271 0.233258 121.724 1.87534 120.782 2.22562C117.958 3.27494 115.075 3.95315 112.111 4.48733C102.033 6.30364 90.2475 5.78577 80.9231 10.3741C73.7345 13.9113 66.6362 19.3998 62.4835 26.3888C58.481 33.1253 56.984 40.4978 56.1462 48.2172C55.5315 53.8823 55.4816 59.7383 55.7691 65.424C55.863 67.2868 56.0725 75.8738 58.7787 73.2732C60.1271 71.9775 60.1171 66.7454 60.4567 64.9744C61.1325 61.4507 61.783 57.9114 62.9098 54.5004C64.8954 48.4895 67.2377 45.6867 72.1842 41.5468C75.3586 38.8904 77.5877 35.3 80.6254 32.6201C81.9899 31.4165 80.9487 31.5418 83.1426 31.6997C84.6164 31.8057 86.0969 31.8462 87.5737 31.8848C90.9901 31.9736 94.4119 31.951 97.8292 31.963C104.711 31.9878 111.561 32.085 118.437 31.7248C121.492 31.5647 124.556 31.4781 127.603 31.1954C129.306 31.0375 132.326 29.9465 133.728 30.7802C135.01 31.543 136.342 34.0336 137.263 35.0536C139.438 37.4642 142.032 39.3053 144.576 41.2819C149.881 45.4035 152.559 46.98 154.17 53.4209C155.775 59.838 155.325 65.7913 157.312 72.1063C157.662 73.2166 158.586 75.1305 159.726 73.415C159.937 73.0965 159.883 71.3451 159.883 70.3374C159.883 66.2696 160.913 63.2175 160.9 59.1232C160.849 46.6744 160.447 30.4418 151.135 20.9284Z"
+                                    fill="#1F3140" />
+                                <path d="M229.007 -15H-10.1V237.406H229.007V-15Z" fill="#4A312C" />
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <defs>
+                    <clipPath id="clip0">
+                        <rect width="217" height="237" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <a href="#about" class="btn btn-outline-primary btn-lg rounded-pill">Let's Go<i
+                    class="bi bi-arrow-down"></i></a>
+        </section>
+        <!-- About -->
+        <section id="about" class="d-flex flex-column justify-content-center text-center">
+            <div>
+                <div class="about-me row justify-content-center">
+                    <div class="content mx-auto text-light text-center col-lg-6 col-11">
+                        <h2 class="fs-2">HI, I’M SWAROOP. NICE TO MEET YOU.</h2>
+                        <p>Hi, I’m a 3rd Computer Science stucdent from India, who loves to code and solve rubik’s cube.
+                            Recently(like 6 months), I started learning Web Development,immediately fell in love with
+                            it. Currently, I am exploring new technologies in field of Backend development.</p>
+                        <div class="d-flex justify-content-around">
+                            <button class="btn btn-outline-light rounded-pill fw-bold">My Resumé</button>
+                            <button class="btn btn-outline-light rounded-pill fw-bold" data-bs-toggle="modal" data-bs-target="#contactModal" >Hire Me</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills row justify-content-center text-center">
+                    <div class="col-11">
+                        <div class="row">
+                            <div class="skill col-lg-4 bg-light py-3">
+                                <i class="bi bi-brush my-4 text-primary d-block"></i>
+                                <h3>Design</h3>
+                                <p class="fs-6 text-muted">Not good a designer though. FYI: This website’s design is
+                                    inspired from another website.</p>
+                                <h4 class="text-primary">Tools I use</h4>
+                                <p class="m-0">Figma</p>
+                                <p class="m-0">ColorHunt</p>
+                            </div>
+                            <div class="skill col-lg-4 bg-light py-3">
+                                <i class="bi bi-window-sidebar my-4 text-primary d-block"></i>
+                                <h3>Frontend Development</h3>
+                                <p class="fs-6 text-muted">I love to code websites from scratch and I don’t enjoy
+                                    writing css, so I use Bootstrap to make my job easy.</p>
+                                <h4 class="text-primary">Languages I speak</h4>
+                                <p class="m-0">HTML</p>
+                                <p class="m-0">CSS</p>
+                                <p class="m-0 mb-3">Javascript</p>
+                                <h4 class="text-primary">Tools I use</h4>
+                                <p class="m-0">VS code</p>
+                                <p class="m-0">Bootstrap</p>
+                                <p class="m-0">Github</p>
+                                <p class="m-0">Stack Overflow</p>
+                                <p class="m-0 mb-3">Codepen</p>
+                                <h4 class="text-primary">Frameworks I use</h4>
+                                <p class="m-0">React</p>
+                            </div>
+                            <div class="skill col-lg-4 bg-light py-3">
+                                <i class="bi bi-server my-4 text-primary d-block"></i>
+                                <h3>Backend Development</h3>
+                                <p class="fs-6 text-muted">I enjoy writing backend for websites and working with
+                                    databases.</p>
+                                <br>
+                                <h4 class="text-primary">Frameworks I use</h4>
+                                <p class="m-0">Nodejs</p>
+                                <p class="m-0">Expressjs</p>
+                                <p class="m-0">Mongoose</p>
+                                <p class="m-0 mb-3">Ejs</p>
+                                <h4 class="text-primary">Datebase</h4>
+                                <p class="m-0">MongoDB</p>
+                                <p class="m-0">MySQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects -->
+        <section id="projects" class="d-flex flex-column justify-content-center text-center pb-5">
+            <div>
+                <h2>MY RECENT WORK</h2>
+                <div class="project-grid row justify-content-evenly placeholder-glow">
+                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
+                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
+                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
+                </div>
+                <div class="project-grid row justify-content-evenly placeholder-glow d-md-flex d-none">
+                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
+                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
+                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
+                </div>
+                <button class="btn btn-lg btn-outline-primary rounded-pill">See more</button>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="row justify-content-center align-items-center mt-3">
+            <div class="mb-5 text-center">
+                <div class="footer-inner container rounded-pill py-3 px-lg-5 text-white d-flex align-items-center">
+                    <span class="h2 mx-auto">Intrested in working together?</span>
+                    <button class="btn btn-outline-light rounded-pill" data-bs-toggle="modal" data-bs-target="#contactModal" >Let's Start</button>
+                </div>
+                <div class="mb-3">
+                    <img src="logo.png" alt="logo">
+                </div>
+                <p class="text-white-50 text-uppercase m-3">Success is not for the lazy</p>
+                <div class="social-container">
+                    <a class="social-icons"><i class="bi bi-facebook h6"></i></a>
+                    <a class="social-icons"><i class="bi bi-instagram h6"></i></a>
+                    <a class="social-icons"><i class="bi bi-linkedin h6"></i></a>
+                    <a class="social-icons"><i class="bi bi-github h6"></i></a>
+                    <a class="social-icons" href="mailto:swaroopthota2001@gmail.com"><i class="bi bi-envelope-fill h6"></i></a>
+                </div>
+                <p class="text-white-50 mt-3">Copyright &copy;Swaroop-2021</p>
+            </div>
+        </footer>
+        <!-- container fluid end -->
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 class="modal-title" id="exampleModalLabel">CONTACT</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Name<span class="text-danger">*</span> </label>
+                  <input type="text" class="form-control" id="recipient-name" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="col-form-label">Email<span class="text-danger">*</span> </label>
+                  <input type="text" class="form-control" id="email" placeholder="Your Email Address" required>
+                  <p class="form-text">Don't worry. We'll never share your email with anyone else.</p>
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Message<span class="text-danger">*</span> </label>
+                  <textarea class="form-control" id="message-text" placeholder="Message" required></textarea>
+                </div>
+                <p>or mail me: <a href="mailto:swaroopthota2001@gmail.com">swaroopthota2001@gmail.com</a></p>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-outline-primary">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<!-- BootStrap Js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+    crossorigin="anonymous"></script>
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js"></script>
+
+</html>
