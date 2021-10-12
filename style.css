@@ -18,7 +18,7 @@ section{
   content: "";
   position: absolute;
   width: 0%;
-  height: 2px;
+  height: 0.16rem;
   border-radius: 70px;
   left: 5px;
   bottom: 5px;
@@ -145,6 +145,9 @@ footer{
 .btn:focus, .btn-close:focus{
   box-shadow: 0 0 0 0;
 }
+.navbar-toggler:focus{
+  box-shadow: 0 0 0 0;
+}
 @media only screen and (max-width: 960px){
   .skill:nth-child(1){
     border-radius: 18px 18px 0 0;
@@ -155,5 +158,11 @@ footer{
     border-radius: 0 0 18px 18px ;
     border-top: 0;
     border-left-width: 1px;
+  }
+  .nav-link:hover::after {
+    width: 100% !important;
+  }
+  .active::after {
+    width: 100% !important;
   }
 }
