@@ -90,6 +90,54 @@ section{
 .project{
   height: 220px;
   border-radius: 30px;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400% !important;
+  animation: gradient 15s ease infinite;
+  transition: all .5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+.pr-1:nth-child(2){ background: linear-gradient(-45deg, #1B262C, #BBE1FA, #3282B8, #0F4C75);}
+.pr-1:nth-child(3){ background: linear-gradient(-45deg, #BE9FE1, #C9B6E4, #F1F1F6, #E1CCEC);}
+.pr-2:nth-child(1){ background: linear-gradient(-45deg, #FFB6B6, #FDE2E2, #AACFCF, #679B9B);}
+.pr-2:nth-child(2){ background: linear-gradient(-45deg, #00E0FF, #74F9FF, #A6FFF2, #E8FFE8);}
+.pr-2:nth-child(3){ background: linear-gradient(-45deg, #FF8080, #FFBA92, #E0F5B9, #C6F1D6);}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.hidden{
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+  position: absolute;
+  z-index: 1;
+}
+.hidden .overlay{
+  position: absolute;
+  background-color: #374dd7;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+.project:hover{
+  transform: scale(1.08);
+}
+
+.project:hover .hidden{
+  opacity: 1;
 }
 footer{
   background-color: #374DD7;

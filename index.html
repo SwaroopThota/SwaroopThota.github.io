@@ -28,7 +28,7 @@
     <title>Swaroop</title>
 </head>
 
-<body  data-bs-spy="scroll" data-bs-target="navbar" data-bs-offset="10" tabindex="0">
+<body  data-bs-spy="scroll" data-bs-target="navbar" data-bs-offset="15" tabindex="0">
     <!-- NavBar -->
     <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid px-4">
@@ -182,7 +182,7 @@
                     </clipPath>
                 </defs>
             </svg>
-            <a href="#about" class="btn btn-outline-primary btn-lg rounded-pill">Let's Go<i
+            <a href="#about" class="btn btn-outline-primary btn-lg rounded-pill shadow-sm">Let's Go<i
                     class="bi bi-arrow-down"></i></a>
         </section>
         <!-- About -->
@@ -192,16 +192,16 @@
                     <div class="content mx-auto text-light text-center col-lg-6 col-11">
                         <h2 class="fs-2">HI, I’M SWAROOP. NICE TO MEET YOU.</h2>
                         <p>Hi, I’m a 3rd Computer Science student from India, who loves to code and solve rubik’s cube.
-                            Recently(like 6 months), I started learning Web Development,immediately fell in love with
+                            Recently(like 3 months), I started learning Web Development,immediately fell in love with
                             it. Currently, I am exploring new technologies in the domain of Backend development.</p>
                         <div class="d-flex justify-content-around">
-                            <button class="btn btn-outline-light rounded-pill fw-bold">My Resumé</button>
+                            <button class="btn btn-outline-light rounded-pill fw-bold">My Resumé <i class="bi bi-file-text"></i></button>
                             <button class="btn btn-outline-light rounded-pill fw-bold" data-bs-toggle="modal" data-bs-target="#contactModal" >Hire Me</button>
                         </div>
                     </div>
                 </div>
                 <div class="skills row justify-content-center text-center">
-                    <div class="col-11">
+                    <div class="col-11 shadow">
                         <div class="row">
                             <div class="skill col-lg-4 bg-light py-3">
                                 <i class="bi bi-brush my-4 text-primary d-block"></i>
@@ -275,18 +275,68 @@
         <!-- Projects -->
         <section id="projects" class="d-flex flex-column justify-content-center text-center pb-5">
             <div>
-                <h2>MY RECENT WORK</h2>
-                <div class="project-grid row justify-content-evenly placeholder-glow">
-                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
-                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
-                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
-                </div>
-                <div class="project-grid row justify-content-evenly placeholder-glow d-md-flex d-none">
-                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
-                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
-                    <div class="col-11 col-md-3 project my-3 placeholder"></div>
-                </div>
-                <button class="btn btn-lg btn-outline-primary rounded-pill">See more</button>
+                    <h2>MY RECENT WORK</h2>
+                    <div class="my-3">
+                        <div class="row justify-content-evenly">
+                            <div class="col-11 col-md-3 project my-3 shadow pr-1 d-flex justify-content-center align-items-center text-white flex-column">
+                                <h1>MyBrary</h1>
+                                <div class="hidden d-flex justify-content-center align-items-center text-white flex-column ">
+                                    <h3>MyBrary</h3>
+                                    <div class="overlay"></div>
+                                    <p>Free online books pdf website</p>
+                                    <a href="https://mybrary369.herokuapp.com/" target="_blank" class="btn btn-outline-light">Visit site <i class="bi bi-caret-right-fill"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-11 col-md-3 project my-3 shadow pr-1 d-flex justify-content-center align-items-center text-white flex-column">
+                                <h1>The Daily Journal Blog</h1>
+                                <div class="hidden d-flex justify-content-center align-items-center text-white flex-column">
+                                    <h3>The Daily Journal Blog</h3>
+                                    <div class="overlay"></div>
+                                    <p>A simple blog site</p>
+                                    <a href="https://blog-the-daily-journal.herokuapp.com/" target="_blank" class="btn btn-outline-light">Visit site <i class="bi bi-caret-right-fill"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-11 col-md-3 project my-3 shadow pr-1 d-flex justify-content-center align-items-center text-white flex-column">
+                                <h1>Flappy bird game</h1>
+                                <div class="hidden d-flex justify-content-center align-items-center text-white flex-column">
+                                    <h3>Flappy bird game</h3>
+                                    <div class="overlay"></div>
+                                    <p>A javascript game</p>
+                                    <a href="https://swaroopthota.github.io/FlappyBirdGame/" target="_blank" class="btn btn-outline-light">Visit site <i class="bi bi-caret-right-fill"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-evenly d-md-flex d-none">
+                            <div class="col-11 col-md-3 project my-3 shadow pr-2 d-flex justify-content-center align-items-center text-white flex-column">
+                                <h1>PasteBin</h1>
+                                <div class="hidden d-flex justify-content-center align-items-center text-white flex-column">
+                                    <h3>PasteBin</h3>
+                                    <div class="overlay"></div>
+                                    <p>A pastebin clone</p>
+                                    <a href="https://pastebin4u.herokuapp.com/" target="_blank" class="btn btn-outline-light">Visit site <i class="bi bi-caret-right-fill"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-11 col-md-3 project my-3 shadow pr-2 d-flex justify-content-center align-items-center text-white flex-column">
+                                <h1>5-Day Weather App</h1>
+                                <div class="hidden d-flex justify-content-center align-items-center text-white flex-column">
+                                    <h3>5-Day Weather App</h3>
+                                    <div class="overlay"></div>
+                                    <p>A React Weather app</p>
+                                    <a href="https://swaroopthota.github.io/React-5Days-Weather-Forecast/" target="_blank" class="btn btn-outline-light">Visit site <i class="bi bi-caret-right-fill"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-11 col-md-3 project my-3 shadow pr-2 d-flex justify-content-center align-items-center text-white flex-column">
+                                <h1>TodoList Api</h1>
+                                <div class="hidden d-flex justify-content-center align-items-center text-white flex-column">
+                                    <h3>TodoList Api</h3>
+                                    <div class="overlay"></div>
+                                    <p>It's my first backend project</p>
+                                    <a href="https://todolist-api369.herokuapp.com/" target="_blank" class="btn btn-outline-light">Visit site <i class="bi bi-caret-right-fill"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <a href="https://github.com/SwaroopThota?tab=repositories" target="_blank" class="btn btn-lg btn-outline-primary rounded-pill">See more</a>
             </div>
         </section>
         <!-- footer -->
@@ -313,38 +363,38 @@
         <!-- container fluid end -->
     </div>
     <!-- Modal -->
-    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title" id="exampleModalLabel">CONTACT</h3>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="/" id="contact-form">
-            <div class="modal-body">
-                <div class="mb-3">
-                  <label for="recipient-name" class="col-form-label">Name<span class="text-danger">*</span> </label>
-                  <input type="text" class="form-control" id="customer-name" placeholder="Your Name" required autofocus>
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden d-flex justify-content-center align-items-center text-white flex-column="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h3 class="modal-title" id="exampleModalLabel">CONTACT</h3>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="mb-3">
-                  <label for="email" class="col-form-label">Email<span class="text-danger">*</span> </label>
-                  <input type="email" class="form-control" id="email" placeholder="Your Email Address" required>
-                  <p class="form-text">Don't worry. We'll never share your email with anyone else.</p>
+                <form action="/" id="contact-form">
+                <div class="modal-body">
+                    <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Name<span class="text-danger">*</span> </label>
+                    <input type="text" class="form-control" id="customer-name" placeholder="Your Name" required autofocus>
+                    </div>
+                    <div class="mb-3">
+                    <label for="email" class="col-form-label">Email<span class="text-danger">*</span> </label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email Address" required>
+                    <p class="form-text">Don't worry. We'll never share your email with anyone else.</p>
+                    </div>
+                    <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Message<span class="text-danger">*</span> </label>
+                    <textarea class="form-control" id="message" placeholder="Message" required></textarea>
+                    </div>
+                    <p>or mail me: <a href="mailto:swaroopthota2001@gmail.com">swaroopthota2001@gmail.com</a></p>
                 </div>
-                <div class="mb-3">
-                  <label for="message-text" class="col-form-label">Message<span class="text-danger">*</span> </label>
-                  <textarea class="form-control" id="message" placeholder="Message" required></textarea>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-outline-primary submit-btn">Send</button>
                 </div>
-                <p>or mail me: <a href="mailto:swaroopthota2001@gmail.com">swaroopthota2001@gmail.com</a></p>
+                </form>
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-outline-primary submit-btn">Send</button>
             </div>
-            </form>
-          </div>
-        </div>
-      </div>
+    </div>
 </body>
 <!-- BootStrap Js -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
