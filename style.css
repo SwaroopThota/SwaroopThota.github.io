@@ -98,10 +98,10 @@ section{
   overflow: hidden;
 }
 .pr-1:nth-child(2){ background: linear-gradient(-45deg, #1B262C, #BBE1FA, #3282B8, #0F4C75);}
-.pr-1:nth-child(3){ background: linear-gradient(-45deg, #BE9FE1, #C9B6E4, #F1F1F6, #E1CCEC);}
-.pr-2:nth-child(1){ background: linear-gradient(-45deg, #FFB6B6, #FDE2E2, #AACFCF, #679B9B);}
-.pr-2:nth-child(2){ background: linear-gradient(-45deg, #00E0FF, #74F9FF, #A6FFF2, #E8FFE8);}
-.pr-2:nth-child(3){ background: linear-gradient(-45deg, #FF8080, #FFBA92, #E0F5B9, #C6F1D6);}
+.pr-1:nth-child(3){ background: linear-gradient(-45deg, #9b6fce, #9d7fc7, #6c6cac, #a276b9);}
+.pr-2:nth-child(1){ background: linear-gradient(-45deg, #d87272, #eea1a1, #7fcece, #559c9c);}
+.pr-2:nth-child(2){ background: linear-gradient(-45deg, #08cce6, #5cf0f8, #8df3e4, #a3faa3);}
+.pr-2:nth-child(3){ background: linear-gradient(-45deg, #f55757, #fdab7b, #c2f563, #93f5b5);}
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
